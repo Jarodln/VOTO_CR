@@ -19,9 +19,22 @@ namespace UI
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
+            /*Acá se van a hacer las condiciones para ver si el usuario esta en la base de datos.
+             if ()
+            {
+
+            }
+             */
             this.Hide();
-            frmIniciarSesion iniciarSesion = new frmIniciarSesion();
-            iniciarSesion.Show();
+            frmRegistrarUsuario registrarUsuario = new frmRegistrarUsuario();
+            registrarUsuario.Show();
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmMain main = new frmMain();
+            main.Show();
         }
     }
 }

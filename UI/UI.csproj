@@ -125,6 +125,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="icons\iconAddUser.png" />
     <Content Include="icons\iconAdmin.png" />
     <Content Include="icons\iconBack.png" />
     <Content Include="icons\iconBigUser.png" />

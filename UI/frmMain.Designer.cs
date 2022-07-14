@@ -74,6 +74,7 @@ namespace UI
             this.btnTimer.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnTimer.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnTimer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTimer.ForeColor = System.Drawing.SystemColors.Menu;
             this.btnTimer.Location = new System.Drawing.Point(2, 232);
             this.btnTimer.Name = "btnTimer";
             this.btnTimer.Size = new System.Drawing.Size(88, 34);

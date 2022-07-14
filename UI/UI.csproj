@@ -58,6 +58,12 @@
     <Compile Include="frmDashboardAdmin.Designer.cs">
       <DependentUpon>frmDashboardAdmin.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDashboardVotante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDashboardVotante.Designer.cs">
+      <DependentUpon>frmDashboardVotante.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmIniciarSesion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,12 @@
     </Compile>
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMantenimientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMantenimientos.Designer.cs">
+      <DependentUpon>frmMantenimientos.cs</DependentUpon>
     </Compile>
     <Compile Include="frmRegistrarCandidato.cs">
       <SubType>Form</SubType>

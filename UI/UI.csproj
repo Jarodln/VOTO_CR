@@ -82,6 +82,12 @@
     <Compile Include="frmRegistrarCandidato.Designer.cs">
       <DependentUpon>frmRegistrarCandidato.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmRegistrarPregunta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistrarPregunta.Designer.cs">
+      <DependentUpon>frmRegistrarPregunta.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmRegistrarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +119,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmRegistrarCandidato.resx">
       <DependentUpon>frmRegistrarCandidato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistrarPregunta.resx">
+      <DependentUpon>frmRegistrarPregunta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmRegistrarUsuario.resx">
       <DependentUpon>frmRegistrarUsuario.cs</DependentUpon>
@@ -153,8 +162,10 @@
     <Content Include="icons\iconEnter.png" />
     <Content Include="icons\iconInicioAdmin.png" />
     <Content Include="icons\iconKey.png" />
+    <Content Include="icons\iconLock_26px.png" />
     <Content Include="icons\iconMaleta.png" />
     <Content Include="icons\iconPeople.png" />
+    <Content Include="icons\iconQuestion.png" />
     <Content Include="icons\iconUser.png" />
     <Content Include="icons\userShield.png" />
     <Content Include="imgs\default_image.jpg" />

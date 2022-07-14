@@ -8,5 +8,7 @@ namespace Entities
 {
     class PreguntaSeguridad
     {
+        protected int Id { get; set; }
+        protected string Descripcion { get; set; }
     }
 }

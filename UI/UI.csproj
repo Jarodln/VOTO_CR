@@ -120,6 +120,9 @@
     <EmbeddedResource Include="frmDashboardAdmin.resx">
       <DependentUpon>frmDashboardAdmin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmDashboardVotante.resx">
+      <DependentUpon>frmDashboardVotante.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmIniciarSesion.resx">
       <DependentUpon>frmIniciarSesion.cs</DependentUpon>
     </EmbeddedResource>
@@ -178,7 +181,9 @@
     <Content Include="icons\iconMaleta.png" />
     <Content Include="icons\iconPeople.png" />
     <Content Include="icons\iconQuestion.png" />
+    <Content Include="icons\iconsAdminSettings.png" />
     <Content Include="icons\iconUser.png" />
+    <Content Include="icons\iconUserApply.png" />
     <Content Include="icons\userShield.png" />
     <Content Include="imgs\default_image.jpg" />
     <Content Include="imgs\logoTSE.png" />

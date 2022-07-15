@@ -32,8 +32,8 @@ namespace UI
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDashboardAdmin));
             this.btnVolver = new System.Windows.Forms.Button();
             this.gpbIcon = new System.Windows.Forms.GroupBox();
-            this.lblIconAdmin = new System.Windows.Forms.Label();
             this.lblAdmin = new System.Windows.Forms.Label();
+            this.lblIconAdmin = new System.Windows.Forms.Label();
             this.btnArchivo = new System.Windows.Forms.Button();
             this.btnMantenimientos = new System.Windows.Forms.Button();
             this.btnReportes = new System.Windows.Forms.Button();
@@ -67,6 +67,16 @@ namespace UI
             this.gpbIcon.TabIndex = 1;
             this.gpbIcon.TabStop = false;
             // 
+            // lblAdmin
+            // 
+            this.lblAdmin.AutoSize = true;
+            this.lblAdmin.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAdmin.Location = new System.Drawing.Point(329, 111);
+            this.lblAdmin.Name = "lblAdmin";
+            this.lblAdmin.Size = new System.Drawing.Size(135, 25);
+            this.lblAdmin.TabIndex = 1;
+            this.lblAdmin.Text = "Administrador";
+            // 
             // lblIconAdmin
             // 
             this.lblIconAdmin.AutoSize = true;
@@ -78,16 +88,6 @@ namespace UI
             this.lblIconAdmin.Size = new System.Drawing.Size(100, 105);
             this.lblIconAdmin.TabIndex = 0;
             this.lblIconAdmin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblAdmin
-            // 
-            this.lblAdmin.AutoSize = true;
-            this.lblAdmin.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAdmin.Location = new System.Drawing.Point(329, 111);
-            this.lblAdmin.Name = "lblAdmin";
-            this.lblAdmin.Size = new System.Drawing.Size(135, 25);
-            this.lblAdmin.TabIndex = 1;
-            this.lblAdmin.Text = "Administrador";
             // 
             // btnArchivo
             // 

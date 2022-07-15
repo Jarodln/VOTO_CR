@@ -23,5 +23,12 @@ namespace UI
             frmMain main = new frmMain();
             main.Show();
         }
+
+        private void btnIngresar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmDashboardAdmin dashboard = new frmDashboardAdmin();
+            dashboard.Show();
+        }
     }
 }

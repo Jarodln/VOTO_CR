@@ -52,6 +52,18 @@
     <Compile Include="frmBuscarUsuario.Designer.cs">
       <DependentUpon>frmBuscarUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDashboardAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDashboardAdmin.Designer.cs">
+      <DependentUpon>frmDashboardAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDashboardVotante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDashboardVotante.Designer.cs">
+      <DependentUpon>frmDashboardVotante.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmIniciarSesion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +82,24 @@
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmMantenimientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMantenimientos.Designer.cs">
+      <DependentUpon>frmMantenimientos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistrarCandidato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistrarCandidato.Designer.cs">
+      <DependentUpon>frmRegistrarCandidato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistrarPregunta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistrarPregunta.Designer.cs">
+      <DependentUpon>frmRegistrarPregunta.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmRegistrarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +117,12 @@
     <EmbeddedResource Include="frmBuscarUsuario.resx">
       <DependentUpon>frmBuscarUsuario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmDashboardAdmin.resx">
+      <DependentUpon>frmDashboardAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDashboardVotante.resx">
+      <DependentUpon>frmDashboardVotante.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmIniciarSesion.resx">
       <DependentUpon>frmIniciarSesion.cs</DependentUpon>
     </EmbeddedResource>
@@ -95,6 +131,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistrarCandidato.resx">
+      <DependentUpon>frmRegistrarCandidato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistrarPregunta.resx">
+      <DependentUpon>frmRegistrarPregunta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmRegistrarUsuario.resx">
       <DependentUpon>frmRegistrarUsuario.cs</DependentUpon>
@@ -128,14 +170,22 @@
     <Content Include="icons\iconAddUser.png" />
     <Content Include="icons\iconAdmin.png" />
     <Content Include="icons\iconBack.png" />
+    <Content Include="icons\iconBandera.png" />
     <Content Include="icons\iconBigUser.png" />
+    <Content Include="icons\iconCandidato.png" />
     <Content Include="icons\iconCedula.png" />
     <Content Include="icons\iconEnter.png" />
     <Content Include="icons\iconInicioAdmin.png" />
     <Content Include="icons\iconKey.png" />
+    <Content Include="icons\iconLock_26px.png" />
+    <Content Include="icons\iconMaleta.png" />
     <Content Include="icons\iconPeople.png" />
+    <Content Include="icons\iconQuestion.png" />
+    <Content Include="icons\iconsAdminSettings.png" />
     <Content Include="icons\iconUser.png" />
+    <Content Include="icons\iconUserApply.png" />
     <Content Include="icons\userShield.png" />
+    <Content Include="imgs\default_image.jpg" />
     <Content Include="imgs\logoTSE.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

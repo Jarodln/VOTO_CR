@@ -49,6 +49,7 @@ namespace UI
             // 
             // btnVolver
             // 
+            this.btnVolver.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnVolver.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVolver.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

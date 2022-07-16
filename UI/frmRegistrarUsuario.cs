@@ -16,5 +16,12 @@ namespace UI
         {
             InitializeComponent();
         }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmBuscarUsuario buscarUsuario = new frmBuscarUsuario();
+            buscarUsuario.Show();
+        }
     }
 }

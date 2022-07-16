@@ -8,8 +8,12 @@ namespace Entities
 {
     class Votacion
     {
-        public int id { get; set; }
-        public int idUsuario { get; set; }
-
+        protected int Id { get; set; }
+        protected int IdUsuario { get; set; }
+        protected DateTime Fecha { get; set; }
+        protected string Hora { get; set; }
+        protected int CodigoElectoral { get; set; }
+        protected int CodigoPresidente { get; set; }
+        protected int CodigoDiputado { get; set; }
     }
 }

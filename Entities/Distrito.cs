@@ -8,5 +8,9 @@ namespace Entities
 {
     class Distrito
     {
+        protected int CodigoElectoral { get; set; }
+        protected string Provincia { get; set; }
+        protected string Canton { get; set; }
+        protected string Distrit { get; set; }
     }
 }

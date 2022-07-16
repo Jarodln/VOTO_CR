@@ -8,5 +8,8 @@ namespace Entities
 {
     class Partido
     {
+        protected int Codigo { get; set; }
+        protected string Descripcion { get; set; }
+        protected string UrlImagen { get; set; }
     }
 }
